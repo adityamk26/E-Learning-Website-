@@ -1,0 +1,191 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    line-height: 1.6;
+  }
+  
+  header {
+    background: linear-gradient(rgba(168, 207, 83, 0.5), rgba(209, 230, 89, 0.5)), url('background.jpg') no-repeat center center/cover;
+    color: #57bde8;
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .navbar .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .navbar nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  .navbar nav ul li {
+    margin: 0 15px;
+  }
+  
+  .navbar nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  .search-bar {
+    flex-grow: 1;
+    max-width: 400px;
+    margin-left: 20px;
+  }
+  
+  .search-bar input {
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    width: 100%;
+  }
+  
+  .hero {
+    margin-top: 50px;
+  }
+  
+  .hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    animation: fadeInDown 1s ease;
+  }
+  
+  .hero p {
+    font-size: 24px;
+    margin-bottom: 40px;
+    animation: fadeInUp 1s ease;
+  }
+  
+  .cta-button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    color: #333;
+    background: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 25px;
+    transition: background 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background: #f1f1f1;
+  }
+  
+  .featured-courses {
+    padding: 50px 0;
+    background: #fff;
+    text-align: center;
+  }
+  
+  .course-carousel {
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+  }
+  
+  .course-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .course-card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .course-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .course-info {
+    padding: 20px;
+  }
+  
+  .course-info h3 {
+    font-size: 20px;
+  }
+  
+  .course-info p {
+    color: #666;
+  }
+  
+  .rating {
+    font-size: 18px;
+  }
+  
+  .enroll-button {
+    padding: 10px 20px;
+    color: #fff;
+    background: #3b82f6;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .enroll-button:hover {
+    background: #2563eb;
+  }
+  
+  footer {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .footer-links a, .social-icon, .newsletter button {
+    color: #e41010;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  .newsletter {
+    margin-top: 20px;
+  }
+  
+  .newsletter input {
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    margin-right: 10px;
+  }
+  
+  .social-icon {
+    font-size: 20px;
+    text-decoration: none;
+  }
+  
